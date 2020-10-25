@@ -1,0 +1,28 @@
+@import 'variables.scss';
+@import 'mixins/*.scss';
+
+@import 'global.scss';
+
+
+
+// resolutions
+
+$phones: 481px;
+
+// common
+
+@import './common/through-button.scss';
+@import './mixins/resolution.scss';
+
+// blocks
+
+@import 'blocks.scss';
+
+// media
+
+@import 'media.scss';
+
+
+// main
+
+@import 'layout.scss';

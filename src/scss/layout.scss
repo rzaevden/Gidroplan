@@ -1,0 +1,76 @@
+html {
+    font-size: $font-size;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    height: 99%;
+
+    &_footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    // &_aboutcompany {
+    //     display: flex;
+    //     flex-direction: column;
+    // }
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    li {
+        list-style: none;
+    }
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a { 
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+

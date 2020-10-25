@@ -1,0 +1,55 @@
+.through__button {
+    // color: #fff;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    text-decoration: none;
+
+    .through__link {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &_color {
+        &_align {
+            border: 2px solid #000;
+            position: absolute;
+            top: 80%;
+
+            .through__link {
+                color: #000;
+            }
+        }
+    }
+
+    &_black {
+        border: 2px solid #000;
+
+        &_align {
+            margin-top: 150px;
+        }
+
+        .through__link {
+            color: #000;
+        }
+    }
+}
+
+.mobile {
+    display: none;
+    @include phones {
+        display: flex;
+    }
+}
+
+// .through__button {
+//     color: #fff;
+//     // padding: 5px 30px;
+//     background: transparent;
+//     // border: 2px solid #fff;
+//     text-decoration: none;
+    
+// }

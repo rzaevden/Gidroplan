@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  // padding: 1em;
+  font-size: $font-size;
+  font-family: sans-serif;
+
+  @media (min-width: $screen-sm) {
+    // background-color: #ff0;
+  }
+}
+
+.container {
+  @include grid();
+}
+
+.form {
+  @include form();
+}
+
+.block {
+  display: none;
+
+  @media (min-width: $screen-sm) {
+    display: flex;
+  }
+}
