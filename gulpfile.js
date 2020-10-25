@@ -106,7 +106,7 @@ function clean() {
 }
 
 function watcher() {
-  watch(paths.src + 'scss/*.scss', styles);
+  watch(paths.src + 'scss/', styles);
   watch(paths.src + 'css/', cssCopy);
   watch(paths.src + 'js/*.js', scripts);
   watch(paths.src + '*.html', htmls);
